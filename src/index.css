@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+/* The following styling were added by me to style my assignment */
+  background-image: url('../src/image/trees.jpg');
+  image-resolution: 200px 500px;
+
 }
 
 code {
