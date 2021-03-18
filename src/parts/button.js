@@ -8,7 +8,7 @@ function Button(props) {
                     height:props.height, 
                     margin:props.margin, 
                     borderRadius:props.border, 
-                    marginTop:props.margintop}}>
+                    marginTop:props.margintop, padding:props.padding}}>
 
                 Submit
             </button>

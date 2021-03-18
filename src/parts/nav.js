@@ -1,7 +1,7 @@
 
 function Nav(props) {
     return (
-        <div>
+        <div className="topnav">
             <h1>PRE-MEST ASSESSMENT</h1>
             <nav 
             style={{ justifyContent:props.justify, 

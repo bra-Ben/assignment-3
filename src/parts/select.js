@@ -2,7 +2,7 @@
 function Select(props) {
     return(
         <div>
-            <h1>Select Your React Proficiency Level:</h1>
+            <h2>Select Your React Proficiency Level:</h2>
             <select>
                 <option>--Chose One</option>
                 <option>Beginner</option>

@@ -2,8 +2,8 @@
 function Textarea(props) {
     return (
         <div>
-            <h1>Add Comments:</h1>
-            <textarea 
+            <h2>Add Comments:</h2>
+            <textarea placeholder="Enter your comments here"
             style={{backgroundColor:props.color, 
                 width:props.width, 
                 height:props.height,

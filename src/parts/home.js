@@ -10,56 +10,70 @@ import './home.css';
 function Home() {
    return (
       <div className="home">
-         <Nav
-            text="PRE-MEST ASSESSMENT"
-            justify="center"
-            align="center"
-            color=""
-            top="10px"
-         />
 
-         <Input
-            margin="20px 20px"
-            width="300px"
-            height="30px"
-            border="12px"
-            padding="10px "
-            color="#be95ff"
-         />
+         <div className="subhome">
 
-         <Textarea
-            margin="20px 20px"
-            width="300px"
-            border="5px"
-            color="#be95ff"
-            height="50px"
-            padding="10px "
-         />
+            <Nav className="nav"
+               text="PRE-MEST ASSESSMENT"
+               justify="center"
+               align="center"
+               color=""
+               top="5px"
+            />
 
-         <Select margin="20px 20px" />
+            <Input
+               margin="20px 20px"
+               width="400px"
+               height="30px"
+               border="5px"
+               padding="10px "
+               color="#d7d7d7"
+            />
 
-         <Checkbox
+            <Textarea
+               margin="20px 20px"
+               width="385px"
+               border="5px"
+               color="#d7d7d7"
+               height="100px"
+               padding="10px "
+            />
+
+            <Select margin="40px 40px" />
+
+            <Checkbox
+            
+               // className="check"
+               text="Male"
+               textcolor="white"
+               width="300px"
+               height="30px"
+               // margin="5px 5px"
+               // border="5px"
+            />
+
+            <Checkbox
+               // className="check"
+               text="Female"
+               textcolor="white"
+               width="300px"
+               height="30px"
+               // margin="5px 5px"
+               // border="5px"
+            />
+
+            <Button 
+               color= "#d7d7d7"
+               width= "100px"
+               height= "40px"
+               margin="20px 20px"
+               padding= "5px"
+               border= "5px"
+               margintop= ""
+            />
+
+         </div>
          
-            // className="check"
-            text="Male"
-            textcolor="white"
-            width="300px"
-            height="30px"
-            margin="20px 20px"
-            border="12px"
-         />
-
-<Checkbox
-            // className="check"
-            text="Female"
-            textcolor="white"
-            width="300px"
-            height="30px"
-            margin="20px 20px"
-            border="12px"
-         />
-
-         <Button />
       </div>
    );
 }

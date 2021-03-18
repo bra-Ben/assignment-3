@@ -1,7 +1,7 @@
 function Input(props) {
     return (
         <div>
-            <h1>Enter Your Full Name:</h1>
+            <h2>Enter Your Full Name:</h2>
             <input type='text' 
                 style={{backgroundColor:props.color, 
                 width:props.width, 
